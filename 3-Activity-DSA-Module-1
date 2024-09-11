@@ -1,0 +1,23 @@
+// Addition
+let sum = firstFavNum + secondFavNum;
+console.log("Addition:", sum);
+
+// Subtraction
+let difference = firstFavNum - secondFavNum;
+console.log("Subtraction:", difference);
+
+// Multiplication
+let product = firstFavNum * secondFavNum;
+console.log("Multiplication:", product);
+
+// Division
+let quotient = firstFavNum / secondFavNum;
+console.log("Division:", quotient);
+
+// Modulus
+let remainder = firstFavNum % secondFavNum;
+console.log("Modulus:", remainder);
+
+// Exponentiation (Power)
+let power = firstFavNum ** secondFavNum;
+console.log("Exponentiation:", power);
