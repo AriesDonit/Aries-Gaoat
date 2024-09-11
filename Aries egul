@@ -1,0 +1,42 @@
+// comparison.js
+
+// 1. Ccreate a variable named firstFavNumb and store your favorite number.
+let firstFavNumb = 7;  // Replace with your favorite number
+
+// 2. Create a variable named secondFavNumb and store your second favorite number.
+let secondFavNumb = 3;  // Replace with your second favorite number
+
+// 3. Perform the following checks:
+
+// Greater than
+console.log("Greater than:", firstFavNumb > secondFavNumb);
+
+// Less than
+console.log("Less than:", firstFavNumb < secondFavNumb);
+
+// Greater than or equal to
+console.log("Greater than or equal to:", firstFavNumb >= secondFavNumb);
+
+// Less than or equal to
+console.log("Less than or equal to:", firstFavNumb <= secondFavNumb);
+
+// Strict equality (===)
+console.log("Strict equality (===):", firstFavNumb === secondFavNumb);
+
+// Loose equality (==)
+console.log("Loose equality (==):", firstFavNumb == secondFavNumb);
+
+// Strict inequality (!==)
+console.log("Strict inequality (!==):", firstFavNumb !== secondFavNumb);
+
+// Loose inequality (!=)
+console.log("Loose inequality (!=):", firstFavNumb != secondFavNumb);
+
+// AND (&&) operator
+console.log("AND (&&):", firstFavNumb > 5 && secondFavNumb < 5);
+
+// OR (||) operator
+console.log("OR (||):", firstFavNumb > 5 || secondFavNumb < 5);
+
+// NOT (!) operator
+console.log("NOT (!):", !(firstFavNumb > 5));
