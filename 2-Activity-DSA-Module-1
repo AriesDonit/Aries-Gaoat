@@ -1,0 +1,11 @@
+// Step 2: Declare variables
+let name = "Your Name";  // Replace with your actual name
+let whatDoYouWannaBecomeInYourLife = "programmer";
+let gender = "Your Gender";  // Replace with your gender
+let twitterHandle = "@YourTwitterHandle";  // Replace with your Twitter handle
+
+// Step 3: Log variables to the console
+console.log("Name:", name);
+console.log("Goal:", whatDoYouWannaBecomeInYourLife);
+console.log("Gender:", gender);
+console.log("Twitter Handle:", twitterHandle);node variables.js
