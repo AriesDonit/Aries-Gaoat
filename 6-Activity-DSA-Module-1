@@ -1,0 +1,32 @@
+// 1. Convert a String to a Number
+let price = "200";
+
+// Using parseInt()
+let priceInt = parseInt(price);
+console.log("Using parseInt():", priceInt);
+
+// Using Number()
+let priceNumber = Number(price);
+console.log("Using Number():", priceNumber);
+
+// Using + operator
+let pricePlus = +price;
+console.log("Using + operator:", pricePlus);
+
+// 2. Convert a Number to a String
+let distance = 150;
+
+// Using .toString()
+let distanceStr1 = distance.toString();
+console.log("Using .toString():", distanceStr1);
+
+// Using String()
+let distanceStr2 = String(distance);
+console.log("Using String():", distanceStr2);
+
+// 3. Convert a String to a Decimal Number
+let weight = "72.5";
+
+// Using parseFloat()
+let weightFloat = parseFloat(weight);
+console.log("Using parseFloat():", weightFloat);
