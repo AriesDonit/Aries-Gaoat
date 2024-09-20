@@ -2,11 +2,11 @@
 let price = "200";
 
 // Using parseInt()
-let priceInt = parseInt(price);
-console.log("Using parseInt():", priceInt);
+let priceInt = parseInt"200";
+console.log("Using parseInt("50):", priceInt);
 
-// Using Number()
-let priceNumber = Number(price);
+// Using Number(20)
+let priceNumber = Number("200);
 console.log("Using Number():", priceNumber);
 
 // Using + operator
