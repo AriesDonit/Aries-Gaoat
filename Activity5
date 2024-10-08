@@ -1,0 +1,26 @@
+// numberGuess.js
+
+// Generate a random number between 1 and 10
+const correctNumber = Math.floor(Math.random() * 10) + 1;
+
+// Initialize variables
+let guess = 0;
+
+// Function to ask for the user's guess
+const askForGuess = () => {
+    guess = parseInt(prompt("Guess a number between 1 and 10:"), 10);
+    return guess;
+};
+
+// Keep asking the user until they guess the correct number
+while (guess !== correctNumber) {
+    guess = askForGuess();
+
+    if (guess < correctNumber) {
+        console.log("Too low! Try again.");
+    } else if (guess > correctNumber) {
+        console.log("Too high! Try again.");
+    } else if (guess === correctNumber) {
+        console.log("Congratulations! You guessed the correct number.");
+    }
+}
