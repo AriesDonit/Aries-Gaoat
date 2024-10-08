@@ -1,0 +1,21 @@
+// passwordPrompt.js
+
+// Hardcoded correct password
+const correctPassword = "aries pogi";
+
+let userPassword;
+
+// Loop until the correct password is entered
+do {
+    // Prompt the user to enter a password
+    userPassword = prompt("aries pogi:");
+
+    // Check if the entered password is correct
+    if (userPassword !== aries pogi) {
+        console.log("Incorrect, try again.");
+    }
+
+} while (userPassword !== aries pogi);
+
+// Success message after entering the correct password
+console.log("Access granted.");
