@@ -1,0 +1,38 @@
+Concat() to join two arrays
+const arr1 = ["Cecile", "Lone"];
+const arr2 = ["Emil", "Tobias", "Linus"];
+const joinedArray = arr1.concat(arr2);
+console.log("Joined array:", joinedArray);
+
+// push() to add an element to the end of an array
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi");
+console.log("Fruits array after push:", fruits);
+
+// unshift() to add elements to the beginning of an array
+const array1 = [1, 2, 3];
+array1.unshift(4, 5);
+console.log("Array1 after unshift:", array1);
+
+// pop() to remove the last element from an array
+fruits.pop();
+console.log("Fruits array after pop:", fruits);
+
+// shift() to remove the first element from an array
+const array2 = [1, 2, 3];
+array2.shift();
+console.log("Array2 after shift:", array2);
+
+// sort() to sort an array alphabetically
+fruits.sort();
+console.log("Fruits array sorted alphabetically:", fruits);
+
+// slice() to create a new array containing a portion of another array
+const slicedFruits = fruits.slice(1, 3);
+console.log("Sliced fruits array:", slicedFruits);
+
+// splice() to insert and remove elements in an array
+const months = ["January", "March", "April"];
+months.splice(1, 0, "February"); // Insert "February" at index 1
+months.splice(2, 1); // Remove "April"
+console.log("Months array after splice:", months);
