@@ -1,0 +1,12 @@
+// Collect user information using prompts
+const fullName = prompt("AriesGaoat:");
+const age = prompt("20:");
+const favoriteNumber = prompt("8:");
+const favoriteColor = prompt("Violet:");
+
+// Log the collected information to the console
+console.log("Aries Gaoat:");
+console.log("Full Name:", fullName);
+console.log("Age:", age);
+console.log("Favorite Number:", favoriteNumber);
+console.log("Favorite Color:", favoriteColor);
